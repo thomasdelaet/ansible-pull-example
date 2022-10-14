@@ -1,4 +1,4 @@
-- hosts: thomas-desktop
+- hosts: all
   tasks:
     - name: add hosts to inventory groups
       add_host:
