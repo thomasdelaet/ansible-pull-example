@@ -1,6 +1,6 @@
 - hosts: all
   tasks:
-      - name: add hosts to inventory groups
+   - name: add hosts to inventory groups
       add_host:
         name: "{{ inventory_hostname }}"
         groups: "{{ hostvars[inventory_hostname].pull_groups }}"
